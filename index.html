@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mi Primer Sitio Web</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenidos a Mi Sitio Web</h1>
+    </header>
+
+    <section id="bio">
+        <h2>Sobre mí</h2>
+        <p>Hola, soy un estudiante apasionado por la tecnología y el desarrollo web. Este es mi primer sitio web.</p>
+        <img src="src/foto.JPG" alt="Imagen de perfil" width="200">
+        <p>Puedes seguirme en mis redes sociales:</p>
+        <a href="https://www.instagram.com/darwinpm1" target="_blank">Instagram</a> |
+        <a href="https://github.com/xdarwin13" target="_blank">GitHub</a>
+    </section>
+
+    <section id="hobbies">
+        <h2>Mis Hobbies</h2>
+        <ul>
+            <li>Programar</li>
+            <li>Leer libros</li>
+            <li>Jugar videojuegos</li>
+        </ul>
+    </section>
+
+    <section id="tareas">
+        <h2>Tareas Prioritarias</h2>
+        <ol>
+            <li>Estudiar para el examen de programación</li>
+            <li>Completar proyecto de desarrollo web</li>
+            <li>Leer tutoriales sobre JavaScript</li>
+        </ol>
+    </section>
+
+    <section id="horario">
+        <h2>Horario Semanal</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Día</th>
+                    <th>Actividad</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Lunes</td>
+                    <td>Estudio de JavaScript</td>
+                </tr>
+                <tr>
+                    <td>Martes</td>
+                    <td>Desarrollo de proyectos</td>
+                </tr>
+                <tr>
+                    <td>Miércoles</td>
+                    <td>Revisión de tareas</td>
+                </tr>
+                <tr>
+                    <td>Jueves</td>
+                    <td>Leer documentación</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <form id="form-contacto">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required><br>
+
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="motivo">Motivo de contacto:</label>
+            <textarea id="motivo" name="motivo" required></textarea><br>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Mi Primer Sitio Web</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
